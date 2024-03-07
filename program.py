@@ -74,10 +74,10 @@ while True:
     # Process the frame
     processed_frame = process_frame(frame)
 
-    # Display the result
+    # Display the processed frame
     cv2.imshow("Thermal video analysis", processed_frame)
 
-    # Write the frame to the output video file (optional)
+    # Write the frame to the output video file 
     out.write(processed_frame)
 
     # Break the loop if 'q' key is pressed
